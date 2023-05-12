@@ -1,7 +1,6 @@
 import star from "../images/star.png";
 
 export default function Card(props) {
-
     let badgeText;
     if (props.openSpots === 0) {
         badgeText = "SOLD OUT"
